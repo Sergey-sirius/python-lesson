@@ -1,0 +1,30 @@
+## Создание репозитория в существующем каталоге
+
+### Перейти в папку 
+Для начала перейти в папку с проектом который будет добавлен в репозиторий
+
+```
+$ cd /home/user/my_project
+```
+
+###
+
+```
+$ git init
+```
+
+create .gitignore
+```
+.idea/
+```
+
+```
+$ git add --all
+$ git commit -m 'Initial project version'
+```
+
+```
+$ git config --global user.name "Sergey Khatsiola"
+$ git remote add origin git@github.com:<username>/GitPractice.git
+$ git branch -M main
+$ git push -u origin main
