@@ -30,6 +30,7 @@ $ git branch -M main
  git push -u origin main
 
 =======
+
 echo "# python-lesson" >> README.md
 git init
 git add README.md
